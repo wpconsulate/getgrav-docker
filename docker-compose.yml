@@ -1,0 +1,12 @@
+
+services:
+  grav:
+    container_name: getgrav
+    build: ./
+    ports:
+      - 8080:80
+    volumes:
+      - ./html:/var/www/html
+      - ./entrypoint.sh:/usr/local/bin/entrypoint.sh:ro
+    entrypoint:
+      - /usr/local/bin/entrypoint.sh

@@ -1,0 +1,11 @@
+state: enabled
+email: deepak@dmarkweb.com
+fullname: Deepak
+title: Admin
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$6pFZjiO6d0j5RhRclKf9de95neR7Td94wmJ59e43KNqixZY/UeP4m
